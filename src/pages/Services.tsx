@@ -166,7 +166,7 @@ const Services = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="https://wa.me/27662598261"
+                href="https://wa.me/27731041847"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold inline-flex items-center gap-2 hover:opacity-90 transition-opacity"

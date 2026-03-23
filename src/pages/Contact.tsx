@@ -6,7 +6,7 @@ import Layout from "@/components/Layout";
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "Shop 90, Kempton Square Shopping Centre, Cnr Voortrekker Road and Wolffe Street, Kempton Park" },
   { icon: Phone, label: "Phone", value: "011 394 0309", href: "tel:0113940309" },
-  { icon: Phone, label: "WhatsApp", value: "066 259 8261", href: "https://wa.me/27662598261" },
+  { icon: Phone, label: "WhatsApp", value: "073 104 1847", href: "https://wa.me/27731041847" },
   { icon: Mail, label: "Email", value: "kemptonpharm@gmail.com", href: "mailto:kemptonpharm@gmail.com" },
 ];
 
@@ -25,7 +25,7 @@ const Contact = () => {
     const msg = encodeURIComponent(
       `Hi! My name is ${formData.name}.\n\n${formData.message}\n\nEmail: ${formData.email}\nPhone: ${formData.phone}`
     );
-    window.open(`https://wa.me/27662598261?text=${msg}`, "_blank");
+    window.open(`https://wa.me/27731041847?text=${msg}`, "_blank");
   };
 
   return (

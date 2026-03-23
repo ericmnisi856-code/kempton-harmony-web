@@ -62,7 +62,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} className="shrink-0" />
-                066 259 8261
+                073 104 1847
               </li>
               <li className="flex items-center gap-2">
                 <Clock size={16} className="shrink-0" />

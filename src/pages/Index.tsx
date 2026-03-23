@@ -82,12 +82,12 @@ const Index = () => {
               className="flex flex-wrap gap-4"
             >
               <a
-                href="https://wa.me/27662598261?text=Hi%2C%20I%27d%20like%20to%20fill%20a%20prescription."
+                href="https://wa.me/27731041847?text=Hi%2C%20I%27d%20like%20to%20fill%20a%20prescription."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity inline-flex items-center gap-2"
               >
-                Fill a Prescription <ArrowRight size={18} />
+                <MessageCircle size={18} /> WhatsApp Us
               </a>
               <Link
                 to="/contact"
@@ -209,7 +209,7 @@ const Index = () => {
           <ScrollReveal>
             <div className="text-center mt-10">
               <a
-                href="https://wa.me/27662598261?text=Hi%2C%20I%27d%20like%20to%20send%20my%20prescription."
+                href="https://wa.me/27731041847?text=Hi%2C%20I%27d%20like%20to%20send%20my%20prescription."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold inline-flex items-center gap-2 hover:opacity-90 transition-opacity"
@@ -303,12 +303,12 @@ const Index = () => {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a
-                  href="https://wa.me/27662598261?text=Hi%2C%20I%27d%20like%20to%20fill%20a%20prescription."
+                  href="https://wa.me/27731041847?text=Hi%2C%20I%27d%20like%20to%20fill%20a%20prescription."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-8 py-3.5 rounded-full bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity inline-flex items-center gap-2"
                 >
-                  Fill a Prescription <ArrowRight size={18} />
+                  <MessageCircle size={18} /> WhatsApp Us
                 </a>
                 <Link
                   to="/contact"

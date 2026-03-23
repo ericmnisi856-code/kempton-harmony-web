@@ -54,7 +54,7 @@ const Shop = () => {
 
   const handleWhatsAppOrder = (product: typeof products[0]) => {
     const msg = encodeURIComponent(`Hi! I'd like to order: ${product.name} (R${product.price})`);
-    window.open(`https://wa.me/27662598261?text=${msg}`, "_blank");
+    window.open(`https://wa.me/27731041847?text=${msg}`, "_blank");
   };
 
   return (
@@ -163,16 +163,16 @@ const Shop = () => {
               <h3 className="text-2xl font-display font-bold mb-3" style={{ color: "white" }}>
                 How to Order
               </h3>
-              <p className="max-w-xl mx-auto mb-6" style={{ color: "rgba(255,255,255,0.9)" }}>
+              <p className="text-muted-foreground leading-relaxed mb-6">
                 Click "Order" on any product to place your order via WhatsApp. We'll confirm availability and arrange delivery or collection at our Kempton Square store.
               </p>
               <a
-                href="https://wa.me/27662598261"
+                href="https://wa.me/27731041847"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3 rounded-full bg-card text-foreground font-semibold inline-flex items-center gap-2 hover:opacity-90 transition-opacity"
               >
-                Chat With Us <ArrowRight size={18} />
+                <MessageCircle size={18} /> Order via WhatsApp
               </a>
             </div>
           </ScrollReveal>
