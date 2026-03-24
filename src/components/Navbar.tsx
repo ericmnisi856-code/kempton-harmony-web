@@ -53,10 +53,10 @@ const Navbar = () => {
               <MapPin size={14} />
               Shop 90, Kempton Square, Kempton Park
             </span>
-            <span className="flex items-center gap-1.5">
+            <a href="tel:0108262206" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity">
               <Phone size={14} />
-              011 394 0309
-            </span>
+              (010) 826-2206
+            </a>
           </div>
           <div className="flex items-center gap-1.5">
             <Clock size={14} />
@@ -171,7 +171,7 @@ const Navbar = () => {
                   </div>
                 ))}
                 <div className="pt-2 space-y-2 text-sm text-muted-foreground">
-                  <p className="flex items-center gap-2"><Phone size={14} /> 011 394 0309</p>
+                  <p className="flex items-center gap-2"><a href="tel:0108262206" className="hover:text-primary transition-colors"><Phone size={14} /> (010) 826-2206</a></p>
                   <p className="flex items-center gap-2"><MapPin size={14} /> Kempton Square, Kempton Park</p>
                 </div>
               </div>
